@@ -23,7 +23,7 @@ Resources:
   git:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.git
+      Handler: index.gittest
       Runtime: nodejs8.10
       Role:
         Fn::ImportValue:
